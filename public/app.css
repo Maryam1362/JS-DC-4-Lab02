@@ -1,0 +1,44 @@
+body{
+	margin:0;
+	padding:0;
+}
+.header{
+
+	width:100;
+	background:#000;
+	height:70px;
+}
+.header a{
+	color:#fff;
+	text-decoration: none;
+	font-size:18px;
+	padding:20px;
+	
+}
+.header nav{
+ padding:20px 20px;
+
+}
+.artist{
+	height:650px;
+}
+footer {
+	   position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:80px;
+    background:#ccc;
+    text-align: center;
+    padding-top:10px;
+
+}
+.container{
+/*display: flex;
+  flex-direction: column;*/
+  min-height: 100%;
+  position:relative;
+   }
+section{
+	/*flex:1;*/
+}

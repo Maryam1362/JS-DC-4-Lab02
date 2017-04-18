@@ -1,0 +1,19 @@
+<div>
+  <div style="background-image: url('{{ imageUrls.[0].url }}')">
+
+  </div>
+  <div>
+    <h1>{{ name }}</h1>
+    <p>
+      Genres: {{#each genres}}
+        <span>{{ this }}</span>
+      {{/each}}
+    </p>
+    <p>
+      {{ description }}
+    </p>
+    <p>
+      <a href="/artists/edit/{{id}}">Edit</a>
+    </p>
+  </div>
+</div>
